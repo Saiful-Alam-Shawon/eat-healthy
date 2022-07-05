@@ -1,6 +1,7 @@
 body {
     font-family: 'Oswald', sans-serif;
-    padding: 30px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -41,4 +42,36 @@ p {
     font-weight: 400;
     color: aliceblue;
 
+}
+
+.about-me {
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.ladies {
+    width: 50%;
+    padding: 100px;
+}
+
+.ladies img {
+    width: 70%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#second-para {
+    width: 50%;
+    padding-bottom: 20%;
+    font-size: 30px;
 }
